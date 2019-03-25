@@ -15,7 +15,9 @@ main {
     padding-right: 20%;
     padding-bottom: 20%;
     padding-top: 2%;
-    margin: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
 }
 
 footer {
