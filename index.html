@@ -17,14 +17,14 @@
             <article>
                 <form id="survey-form">
                     <label for="name" id="name-label">*Name:
-                       <input type="text" id="name" name="name" placeholder="Write your name" required/></label> <br>
-                    <label for="email" id="email-label">*email:
-                       <input type="email" id="email" name="email" placeholder="Write your email account" required/></label><br>
+                       <input type="text" class="form-control" id="name" name="name" placeholder="Write your name" required/></label> <br>
+                    <label for="email" id="email-label">*Email:
+                       <input type="email" class="form-control" id="email" name="email" placeholder="Write your email account" required/></label><br>
                     <label for="number" id="number-label">*Age:
-                       <input type="number" id="number" name="age" min="10" max="100" placeholder="How old are you?"/></label><br>
+                       <input type="number" class="form-control" id="number" name="age" min="10" max="100" placeholder="How old are you?"/></label><br>
 
                     <label for="dropdown">What kind of console do you play? <br>
-                       <select id="dropdown">
+                       <select id="dropdown" class="form-control" >
                          <option>PS3</option>
                          <option>PS4</option>
                          <option>XBOX</option>
@@ -40,10 +40,10 @@
                     <fieldset>
                         <legend for="hours">How many hours do you spend dialy for playing?</legend><br>
                         <label for="less">
-                       <input type="radio" name="hours" value="2">Less 2 hours
+                       <input type="radio" name="hours" value="2" >Less 2 hours
                        </label>
                         <label for="more">
-                       <input type="radio" name="hours" value="4">More 4 hours
+                       <input type="radio" name="hours" value="4"  >More 4 hours
                        </label><br>
                     </fieldset>
                     <fieldset>
@@ -54,10 +54,10 @@
                         <label><input type="checkbox" name="typeGame" value="adventure">Adventure</label>
                         <label><input type="checkbox" name="typeGame" value="towerdefensive">Tower Defensive</label></fieldset>
                     <br>
-                    <label> Do you have some recommendations?</label><br>
+                    <label> Do you have some recommendations?</label>
                     <textarea cols="68" placeholder="Some tips or recommendations"></textarea>
                     <br>
-                    <input id="submit" type="submit" name="Submit" value="Submit">
+                    <input id="submit" type="submit" name="Submit" value="Submit" class="form-control">
                 </form>
             </article>
         </section>
