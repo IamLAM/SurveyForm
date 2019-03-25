@@ -1,0 +1,12 @@
+body {
+    background-color: #4c4cff;
+}
+
+#title {
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    border-radius: 50px;
+}
